@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <header class="header">
+       <img class="logo" src="./img/Logo.png" alt="logo alura"> 
+    </header>
+    <main class="presentacion">
+        <section>
+            <textarea  class="presentacion__escritura"   name="texarea" >Ingrese el texto aquí</textarea>
+
+            
+              <p class="presentacion__parrafo"> <img src="./img/bi_exclamation-circle-fill.png" alt="icono signo de admiración"> Solo letras minúsculas y sin acentos</p>
+
+            
+
+            <div class="presentacion__buttons">
+                <input class="presentacion__button__uno" type="button" onclick="demoDisplay()" value="Encriptar">
+                <input  class="presentacion__button__dos" type="button" onclick="demoVisibility()" value="Desencriptar">
+            </div>
+
+        </section>
+
+       <section class="presentacion__resultado">
+        <div class="presentacion__resultado__vacio">
+            <img class="presentacion__imagen" src="./img/Muñeco.png" alt="muñeco azul">
+            <p class="presentacion__texto__uno">Ningun mensaje fue encontrado</p>
+            <p class="presentacion__texto__dos">Ingresa el texto que deseas desencriptar</p>
+        </div>
+       </section> 
+       
+        
+        
+    </main>
+    
+    <script src="./js/app.js"> </script>
+</body>
+<footer class="footer">Juan Pablo Luna Hernández </footer>
+
+</html>
